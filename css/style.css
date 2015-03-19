@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#container {
+    padding-top: 15;
+    padding-left: 200;
+    /*padding-right: 100;*/
+    width: 60%;
+}
+#soundcloud {
+    float: right;
+    display:block;
+    position:absolute;
+    /*top:0;*/
+    z-index:1;
+    width:70%;
+}
+#processing {
+    float: right;
+    display:block;
+    position:absolute;
+    /*top:0;*/
+    z-index:2;
+}
+#heavy {
+    display:inline;
+    position:absolute;
+    width: 70%;
+    z-index: 4;
+}
+
+#textarea {
+    display: none;
+    position: absolute;
+    width: 70%;
+    top: 180px;
+    /*font-family: courier;*/
+    font-size: 1.1em;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.clickable {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(235, 77, 276);
+
+}
+
+#intro {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 1.1em;
+}
+
+#mobile {
+    text-align: center;
+    display: none;
+    font-size: 10em;
+    color: rgb(255,0,0);
+}
+
+#credits {
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 0.8em;
+}
+
+#gif {
+    margin-left: 50%;
+}
+
+#active {
+    margin-left: 49%;
+}
