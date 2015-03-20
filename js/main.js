@@ -25,10 +25,10 @@ function hvSendHook(message) {
     console.log(message);
 }
 
-function render(){
-    draw();
-    window.requestAnimationFrame(render);
-}
+// function render(){
+    // draw();
+    // window.requestAnimationFrame(render);
+// }
 
 
 function extract(string){
