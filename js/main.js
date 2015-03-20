@@ -12,7 +12,7 @@ var socket = io('https://algorave.herokuapp.com/');
 var gifToggle = 1;
 
 function hvAudioCallback(buffer) {
-  hvyL = buffer.getChannelData(0);
+  // hvyL = buffer.getChannelData(0);
   // hvyR = buffer.getChannelData(1);
   // hvyBuffer = [hvyL,hvyR];
 }

@@ -6,34 +6,19 @@ body {
     padding-top: 15;
     padding-left: 200;
     /*padding-right: 100;*/
-    width: 60%;
-}
-#soundcloud {
-    float: right;
-    display:block;
-    position:absolute;
-    /*top:0;*/
-    z-index:1;
-    width:70%;
-}
-#processing {
-    float: right;
-    display:block;
-    position:absolute;
-    /*top:0;*/
-    z-index:2;
+    width: 100%;
 }
 #heavy {
     display:inline;
     position:absolute;
-    width: 70%;
+    width: 100%;
     z-index: 4;
 }
 
 #textarea {
     display: none;
     position: absolute;
-    width: 70%;
+    width: 100%;
     top: 180px;
     /*font-family: courier;*/
     font-size: 1.1em;
