@@ -15,10 +15,13 @@ body {
     width: 100%;
     z-index: 4;
 }
-.el {
+.clickable {
     width: 50%;
     float: left;
     height: 25%;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
 }
 #textarea {
     display: none;
