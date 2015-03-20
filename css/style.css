@@ -19,9 +19,12 @@ body {
     width: 50%;
     float: left;
     height: 25%;
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     vertical-align: middle;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(235, 77, 276);
 }
 #textarea {
     display: none;
@@ -33,12 +36,8 @@ body {
     font-size: 1.1em;
     font-family: "Times New Roman", Georgia, Serif;
 }
-
-.clickable {
-    text-decoration: underline;
-    cursor: pointer;
-    background-color: rgb(235, 77, 276);
-
+#paranoia {
+    display: none;
 }
 
 #intro {
