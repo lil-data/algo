@@ -140,5 +140,5 @@ window.onload = function(){
         document.getElementById("textarea").style.display="inline";
     }, 1500);
 
-    render();
+    // render();
 };
