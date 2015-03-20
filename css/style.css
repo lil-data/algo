@@ -3,10 +3,11 @@ body {
     margin: 0;
 }
 #container {
-    padding-top: 15;
-    padding-left: 200;
+/*    padding-top: 15;
+    padding-left: 200;*/
     /*padding-right: 100;*/
     width: 100%;
+    height: 100%;
 }
 #heavy {
     display:inline;
@@ -16,12 +17,15 @@ body {
 }
 .el {
     width: 50%;
+    float: left;
+    height: 25%;
 }
 #textarea {
     display: none;
     position: absolute;
     width: 100%;
-    top: 180px;
+    height: 100%;
+    /*top: 180px;*/
     /*font-family: courier;*/
     font-size: 1.1em;
     font-family: "Times New Roman", Georgia, Serif;
