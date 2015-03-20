@@ -14,7 +14,12 @@ body {
     width: 100%;
     z-index: 4;
 }
-
+#size {
+    width: 50%;
+}
+#depth {
+    width: 50%;
+}
 #textarea {
     display: none;
     position: absolute;
