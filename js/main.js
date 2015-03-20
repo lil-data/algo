@@ -123,7 +123,7 @@ socket.on('init', function(worldstate){
 });
 
 socket.on("users", function (numberofusers) {
-   document.getElementById('numberofusers').innerHTML = numberofusers;
+   // document.getElementById('numberofusers').innerHTML = numberofusers;
 });
 
 window.onload = function(){
