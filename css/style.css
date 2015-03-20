@@ -65,3 +65,8 @@ body {
 #active {
     margin-left: 49%;
 }
+@media (max-width: 600px) {
+  .clickable {
+    font-size: 4em;
+  }
+}
