@@ -14,10 +14,7 @@ body {
     width: 100%;
     z-index: 4;
 }
-#size {
-    width: 50%;
-}
-#fly {
+.el {
     width: 50%;
 }
 #textarea {
